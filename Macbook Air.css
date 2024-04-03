@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.AA{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	height: 40px;
+	color: black;
+	display: flex;
+    justify-content:space-around;
+    text-align: center; 
+	padding-top: 15px;
+} 
+.BB{
+	text-align: center;
+	margin-top: 50px;
+	background-color: white;
+	height: 40px;
+	color: #787c82;
+}
+.CC{
+    text-align: center;
+	margin-top: 30px;
+	font-size: 45px;
+	font-family: sans-serif;
+	
+}
+.DD{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.DD table{
+	width: 500px;
+	height: 100px;
+}
+
+.DD table tr th {
+	border: 2px solid black;
+	border-collapse: collapse;
+	border-radius: 25px;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+.DD table tr th:hover{
+	border-color: dodgerblue;
+	color: dodgerblue;
+}
+.EE{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.ee {
+	height: 150px;
+	text-align: center;
+}
+.ee p i{
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+.ee p{
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+.ee p1{
+	color: dodgerblue;
+	font-size: 22px;
+}
+.ee p1 a{
+	text-decoration: none;
+}
+.ee p1 a:hover{
+	text-decoration: underline;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	margin-top: -55px;
+}
+.sub-main{
+	padding-left: 20px;
+	width: 350px;
+}
+.sub-main img{
+	margin: 15px;
+	width: 300px;
+}
+.sub-main img:hover{
+	scale: 1.1;
+}
+.sub-main .PP{
+	margin-top: -25px;
+	font-size: 15px;
+	color: dimgray;
+}
+.image img{
+	margin: 0;
+	margin-top: 15px;
+	height: 55px;
+	width: 55px;
+}
+.P1{
+	margin-top: 15px;
+	font-size: 25px;
+}
+.P2{
+	line-height: 25px;
+	margin-top: 15px;
+	font-size: 15px;
+	color: dimgray;
+}
+.P3{
+	margin-top: 15px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.P4{
+	margin-top: 10px;
+	color: dimgray;
+}
+.P5{
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.P6{
+	margin-top: 10px;
+	font-size: 15px;
+	color: dodgerblue;
+}
+.P6:hover{
+	text-decoration: underline;
+}
+.sub-main button {
+	margin-top: 60px;
+	padding: 8px;
+	padding-left: 120px;
+	padding-right: 120px;
+	font-size: 18px;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+.sub-main button a{
+	text-decoration: none;
+	color: white;
+}
+.P7{
+	margin-top: 20px;
+	font-size: 17px;
+
+}
+.P8{
+	font-size: 15px;
+	color: dimgrey;
+}
+.P9{
+	margin-top: 15px;
+	font-size: 15px;
+	color: dodgerblue;
+}
+.P9:hover{
+	text-decoration: underline;
+}
+.P10{
+	margin-top: 30px;
+}
+.P11{
+	margin-left: 25px;
+
+}
+.P12{
+	margin-top: 30px;
+}
+.P13{
+	margin-left: 20px;
+
+}
+.P14{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+.P15{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.main1{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px
+}
+.sub-main1{
+	width: 300px;
+}
+.sub-main1 img{
+	width: 50px;
+	height: 50px;
+}
+.sub-main1 p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+.sub-main1 p1{
+	margin-top: 15px;
+	font-size: 15px;
+	color: dimgray;
+}
+.sub-main1 ul{
+	margin-top: 15px;
+	padding-left: 15px;
+}
+.sub-main1 ul li{
+	color: dimgray;
+	font-size: 15px;
+	line-height: 25px;
+}
+h1{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 40px;
+}
+.mac-img{
+	display: flex;
+	justify-content: center;
+}
+.img1 img{
+	height: 320px;
+	width: 460px;
+}
+.img2 img{
+	margin-left: 60px;
+	height: 320px;
+	width: 100px;
+}
+.img3 img{
+	height: 320px;
+	width: 250px;
+}
+.mac-img p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.mac-img1{
+	text-align: center;
+	margin-top: 100px;
+}
+.mac-img1 img{
+	height: 160px;
+	width: 160px;
+	border-radius: 25px;
+}
+.P16{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 33px;
+	font-weight: bold;
+}
+.P17{
+	margin-left: 365px;
+	font-size: 17px;
+	line-height: 22px;
+}
+.P17 a{
+	text-decoration: none;
+	color: dodgerblue;
+}
+.P17 a:hover{
+	text-decoration: underline;
+}
+.P18{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: dodgerblue;
+}
+.P18 a{
+	text-decoration: none;
+}
+.P18 a:hover{
+	text-decoration: underline;
+}
+footer{
+    margin-top: 100px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p{
+    padding-left: 170px;
+    margin: 0px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p1{
+    padding-left: 170px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 15px;
+}
