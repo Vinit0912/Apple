@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.AA{ 	width: 100%;
+	margin: 0px 0px 0px 0px;
+	height: 40px;
+	color: black;
+	display: flex;
+    justify-content:space-around;
+    text-align: center; 
+	padding-top: 15px;
+} 
+.BB{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white;
+	height: 40px;
+	color: #787c82;
+}
+.CC{
+	margin-top: 30px;
+	font-size: 45px;
+	margin-left: 120px;
+	font-family: sans-serif;
+	
+}
+.DD{
+	margin-left: 50px;
+	margin-top: 25px;
+	float: left;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.DD img:hover{
+	scale: 1.1;
+}
+.JJ{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.JJ img:hover{
+	scale: 1.1;
+}
+.II{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.II img:hover{
+	scale: 1.1;
+}
+.HH{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.HH img:hover{
+	scale: 1.1;
+}
+.GG{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.GG img:hover{
+	scale: 1.1;
+}
+.FF{
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.FF img:hover{
+	scale: 1.1;
+}
+.EE {
+	margin-top: 25px;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.EE img:hover{
+	scale: 1.1;
+}
+.ZZ{
+	font-size: 30px; 
+	margin-left: 120px; 
+	font-family: sans-serif; 
+	padding-top: 250px;
+	margin-bottom: 50px;
+}
+.KK {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	height: 450px;
+	width: 370px;
+	margin: 20px;
+	padding: 15px;
+	background-color: black;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+.KK:hover{
+	transform: translateY(-15px);
+}
+.KK img {
+	width: 340px;
+}
+.KK p{
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.KK h1{
+	margin-top: -10px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.KK p1{
+	margin-top: -10px; 
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.LL {
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	text-align: right;
+	height: 450px;
+	width: 370px;
+	margin-top: -471px;
+	margin-right: 20px;
+	padding: 15px;
+	background-color: black;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+.LL:hover{
+	transform: translateY(-15px);
+}
+.LL img {
+	width: 340px;
+}
+.LL p{
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.LL h1{
+	margin-top: 15px; 
+	margin-left: -95px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.LL p1{
+	margin-top: 50px; 
+	margin-left: -115px; 
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.MM {
+	display: flex;
+	flex-wrap: wrap;
+	height: 450px;
+	width: 370px;
+	margin-top: -471px;
+	margin-left: 580px;
+	padding: 15px;
+	background-color: black;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+.MM:hover{
+	transform: translateY(-15px);
+}
+.MM img {
+	width: 340px;
+}
+.MM p{
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.MM h1{
+	margin-top: -35px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+.MM p1{
+	margin-top: 5px; 
+	margin-left: -200px; 
+	font-size: 15px; 
+	font-family: calibri; 
+	color: white; 
+	text-align: left;
+}
+footer{
+    margin-top: 100px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p{
+    padding-left: 170px;
+    margin: 0px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p1{
+    padding-left: 170px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 15px;
+}
