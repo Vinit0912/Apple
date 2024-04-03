@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="iphone15.css">
+    <title>Buy iPhone 15</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><i class="fa-brands fa-apple"></i></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">TV & Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="headline">
+        Get up to 24 months No Cost EMI on all iPhone models from most leading banks.<sup>§</sup> <a href="#">Learn more &#187</a>
+    </div>
+    <div class="aa">
+        <p>New</p>
+        <p1>Buy iPhone 15</p1>
+        <br>
+        <p2>From ₹79900.00</p2>
+    </div>
+    <div class="bb">
+        <p>Get ₹3000.00-₹62300.00 for your trade-in.<sup>*</sup></p>
+            <br>
+            <br>
+        <p>No Cost EMI<sup>§</sup></p>
+    </div>
+    <div class="slideshow-container">
+        <img src="21.jpeg" alt="Slide 1" class="active">
+        <img src="22.jpeg" alt="Slide 2" class="next">
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+    <div class="right-panel">
+        <h2>Model. Which is best for you?</h2>
+        <ul>
+            <li>
+                <h3>iPhone 15</h3>
+                <p>15.5cm (6.1") display</p>
+                <p1>From ₹79,900.00</p1>
+            </li>
+            <li>
+                <h3>iPhone 15 Plus</h3>
+                <p>17.0cm (6.7") display</p>
+                <p1>From ₹89,900.00</p1>
+            </li>
+        </ul>
+        <p>Need help choosing a model?</p>
+        <p1>Explore the differences in screen size and battery life.</p1>
+    </div>
+    <p class="PP">Apple Trade In.Get ₹3000.00-₹62300.00 credit towards your new iPhone.*</p>
+    <div class="cc">
+        <ul>
+            <li>
+                <p>Select a smartphone</p>
+                <p1>Answer a few questions to get your estimate.</p1>
+            </li>
+            <li>
+                <p2>No trade-in</p2>
+            </li>
+        </ul>
+    </div>
+    <p class="P1">What’s in the Box</p>
+    <div class="dd">
+        <div class="d1">
+            <img src="23.jpeg">
+            <p>iPhone 15</p>
+        </div>
+        <div class="d2">
+            <img src="24.jpeg">
+            <p>USB-C Charge Cable</p>
+        </div>
+    </div>
+    <p class="ee">
+        <b>Our environmental goals.</b>
+        </p>
+    <p class="ff">
+        As part of our efforts to reach <a href="https://www.apple.com/in/environment/">carbon neutrality by 2030</a>, iPhone 15 and iPhone 15 Plus do not include a power adapter or EarPods. Included in the<br>box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.<br><br>
+        We encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase.
+    </p>
+    <footer>
+        <div class="footer-text">
+            <p>More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+            <br>
+            <p1>Copyright © 2024 Apple Inc. All rights reserved.&nbsp &nbsp &nbsp &nbspPrivacy Policy &nbsp &nbsp &nbspTerms of Use &nbsp &nbsp &nbspSales and Refunds 
+                &nbsp &nbsp &nbspLegal &nbsp &nbsp &nbspSite Map &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp 
+                &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp India</p1>
+        </div>
+    </footer>
+    <script>
+        
+let currentSlide = 0;
+  const slides = document.querySelectorAll('.slideshow-container img');
+  const totalSlides = slides.length;
+
+  function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    slides[currentSlide].classList.add(n > 0 ? 'prev' : 'next');
+    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
+    slides[currentSlide].classList.remove('next');
+    slides[currentSlide].classList.remove('prev');
+    slides[currentSlide].classList.add('active');
+  }
+
+  function plusSlides(n) {
+    showSlide(n);
+  }
+    </script>
+</body>
+</html>
