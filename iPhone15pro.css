@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.AA { 	width: 100%;
+	margin: 0px 0px 0px 0px;
+	height: 40px;
+	color: black;
+	display: flex;
+    justify-content:space-around;
+    text-align: center; 
+	padding-top: 15px;
+} 
+.BB {
+	text-align: center;
+	padding-top: 10px;
+	height: 40px;
+	color: #787c82;
+}
+.aa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: black;
+}
+.aa img{
+	height: 80px;
+	width: 250px;
+}
+.bb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.bb img{
+	height: 400px;
+	width: 1100px;
+}
+
+.CC {
+	font-size: 20px;
+	padding-top: 50px;
+	margin-left: 100px;
+
+	color: red;
+}
+.DD {
+	font-size: 50px;
+	margin-left: 100px;
+
+}
+.EE {
+	font-size: 15px;
+	margin-left: 100px;
+}
+.FF{
+	height: 400px;
+	width: 100%;
+	display: flex;
+}	
+.GG {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 40px;
+}
+.HH {
+	display: flex;
+	margin-left: 500px;
+	height: 300px;
+	width: 500px;
+}
+.II {
+	height: 300px;
+	width: 250px;
+	text-align: center;
+	font-size: 20px;	
+}
+.JJ {
+	height: 300px;
+	width: 250px;
+	text-align: center;
+	font-size: 20px;
+}
+.img1{
+	text-align: center;
+	margin-top: 180px;
+}
+.img1 img{
+	height: 160px;
+	width: 160px;
+	border-radius: 25px;
+}
+.KK{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 33px;
+	font-weight: bold;
+}
+.LL{
+	margin-left: 365px;
+	font-size: 17px;
+	line-height: 22px;
+}
+.LL a{
+	text-decoration: none;
+	color: dodgerblue;
+}
+.LL a:hover{
+	text-decoration: underline;
+}
+.MM{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: dodgerblue;
+}
+.MM a{
+	text-decoration: none;
+}
+.MM a:hover{
+	text-decoration: underline;
+}
+.NN {
+	font-size: 15px;
+	text-align: center;
+	color: #787c82;
+	margin-top: 80px;
+}
+.OO {
+	font-size: 15px;
+	text-align: center;
+	color: #787c82;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+footer{
+    margin-top: -20px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p{
+    padding-left: 170px;
+    margin: 0px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p1{
+    padding-left: 170px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 15px;
+}
