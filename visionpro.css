@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.AA { 	width: 100%;
+	margin: 0px 0px 0px 0px;
+	height: 40px;
+	color: black;
+	display: flex;
+    justify-content:space-around;
+    text-align: center; 
+	padding-top: 15px;
+} 
+.BB {
+	font-size: 20px;
+	padding-top: 50px;
+	margin-left: 100px;
+	color: red;
+}
+.CC {
+	font-size: 50px;
+	margin-left: 100px;
+}
+.DD {
+	font-size: 15px;
+	margin-left: 100px;
+    margin-top: 10px;
+}
+.main{
+	display: flex;
+}
+.main img{
+    margin-left: 100px;
+}
+.main video{
+    height: 450px;
+    width: 1000px;
+    margin-left: 100px;
+}
+.aa{
+	text-align: left;
+	margin-left: 50px;
+}
+.aa p{
+	font-size: 22px;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+.aa p1{
+	font-size: 22px;
+}
+button{
+	border-radius: 30px;
+	padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+	margin-top: 10px;
+	font-size: 20px;
+    background-color: dodgerblue;
+    border: none;
+}
+.aa a{
+    text-decoration: none;
+    color: white;
+}
+.EE {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.FF{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.FF img{
+    height: 400px;
+    width: 320px;
+}
+.GG {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    margin-left: 150px;
+    margin-right: 240px;
+}
+.GG p{
+    font-size: 15px;
+}
+.HH{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.HH img{
+    height: 400px;
+    width: 320px;
+}
+.II {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 220px;
+    margin-right: 125px;
+    margin-top: -35px;
+}
+.II p{
+    font-size: 15px;
+}
+.img1{
+	text-align: center;
+	margin-top: 100px;
+}
+.img1 img{
+	height: 160px;
+	width: 160px;
+	border-radius: 25px;
+}
+.JJ{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 33px;
+	font-weight: bold;
+}
+.KK{
+	margin-left: 365px;
+	font-size: 17px;
+	line-height: 22px;
+}
+.KK a{
+	text-decoration: none;
+	color: dodgerblue;
+}
+.KK a:hover{
+	text-decoration: underline;
+}
+.LL{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: dodgerblue;
+}
+.LL a{
+	text-decoration: none;
+}
+.LL a:hover{
+	text-decoration: underline;
+}
+footer{
+    margin-top: 100px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p{
+    padding-left: 170px;
+    margin: 0px;
+    color: grey;
+    font-size: 15px;
+}
+.footer-text p1{
+    padding-left: 170px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 15px;
+}
