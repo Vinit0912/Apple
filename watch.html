@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Buy Apple Watch</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><i class="fa-brands fa-apple"></i></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">TV & Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="aa">
+        <p>New</p>
+        <p1>Buy Apple Watch Series 9</p1>
+        <br>
+        <p2>From ₹6983.00/mo. with No Cost EMI with selected <sup>§</sup> or ₹41900.00<sup>‡</sup></p2>
+    </div>
+    <div class="bb">
+        <p>No Cost EMI<sup>§</sup></p>
+    </div>
+    <div class="slideshow-container">
+        <img src="watch1.jpeg" alt="Slide 1" class="active">
+        <img src="watch2.jpeg" alt="Slide 2" class="next">
+        <img src="watch3.jpeg" alt="Slide 3" class="next">
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+    
+    <div class="right-panel">
+        <h2>Case. Let’s start with your <br> material and finish.</h2>
+        <div class="right">
+            <ul>
+                <li>
+                    <h3>Aluminium</h3>
+                    <p>Choice of GPS or GPS + Cellular</p>
+                    <p1>From ₹6983.00/mo.<sup>§</sup>or ₹41900.00<sup>‡</sup></p1><br>
+                    <p2>Matt finish with an Ion-X strengthened glass display.</p2> <br>
+                    <p3>Carbon neutral when paired with new Sport <br> 
+                        Loop straps. Learn more at apple.com/in/2030.</p3>
+                </li>
+            </ul>
+        </div>
+        <div class="right1">
+            <ul>
+                <li>
+                    <h3>Stainless Steel</h3>
+                    <p>Comes with GPS + Cellular</p>
+                    <p1>From ₹11817.00/mo.<sup>§</sup>or ₹70900.00<sup>‡</sup></p1><br>
+                    <p2>Polished finish with a durable sapphire crystal display.</p2>
+                </li>
+            </ul>
+        </div>
+        <p>Need help choosing a case material?</p>
+        <p1>Learn about differences in weight, finishes and more</p1>
+    </div>
+    <p class="PP">Which Apple Watch is right for you?</p>
+    <div class="cc">
+        <div class="box">
+            <img src="watch4.jpeg">
+            <p>Apple Watch SE</p>
+            <p1>From ₹29900.00</p1>
+        </div>
+        <div class="box1">
+            <img src="watch5.jpeg">
+            <p>New</p>
+            <p1>Apple Watch Series 9</p1> <br>
+            <p2>From ₹41900.00</p2>
+        </div>
+        <div class="box2">
+            <img src="watch6.jpeg">
+            <p>New</p>
+            <p1>Apple Watch Ultra 2</p1> <br>
+            <p2>From ₹89900.00</p2>
+        </div>
+    </div>
+    <p class="P1">
+        <b>Our environmental goals.</b>
+    </p>
+    <p class="P2">
+        As part of our efforts to reach <a href="https://www.apple.com/in/environment/">carbon neutrality by 2030</a>, Apple Watch do not include a power adapter or EarPods. Included in the<br>box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.<br><br>
+    We encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase.
+    </p>
+    <footer>
+        <div class="footer-text">
+            <p>More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+            <br>
+            <p1>Copyright © 2024 Apple Inc. All rights reserved.&nbsp &nbsp &nbsp &nbspPrivacy Policy &nbsp &nbsp &nbspTerms of Use &nbsp &nbsp &nbspSales and Refunds 
+                &nbsp &nbsp &nbspLegal &nbsp &nbsp &nbspSite Map &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp 
+                &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp India</p1>
+        </div>
+    </footer>
+    <script>
+        
+let currentSlide = 0;
+  const slides = document.querySelectorAll('.slideshow-container img');
+  const totalSlides = slides.length;
+
+  function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    slides[currentSlide].classList.add(n > 0 ? 'prev' : 'next');
+    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
+    slides[currentSlide].classList.remove('next');
+    slides[currentSlide].classList.remove('prev');
+    slides[currentSlide].classList.add('active');
+  }
+
+  function plusSlides(n) {
+    showSlide(n);
+  }
+    </script>
+</body>
+</html>
+
+
